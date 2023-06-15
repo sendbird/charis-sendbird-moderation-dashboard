@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: charis-sendbird-moderation-dashboard
+description: charis-sendbird-moderation-dashboard
+annotations:
+    github.com/project-slug: sendbird/charis-sendbird-moderation-dashboard
+spec:
+  type: library
+  lifecycle: experimental
+  owner: dep-developer-experience
+  system: sendbird-internal-tools
+
